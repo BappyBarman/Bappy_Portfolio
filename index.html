@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome (single version for best compatibility) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Bappy Barman</title>
+    <link rel="icon" type="image/x-icon" href="ICON BB.ico"/>
+
+    <!-- Cache-busting added with ?v=1.0 -->
+    <link rel="stylesheet" href="style.css?v=1.0">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="index-2.html">Bappy Barman</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="54.jpg" alt="">
+            </div>
+            <h1>Bappy Barman</h1>
+            <h2>Student</h2>
+            <h2>Data Enthusiast</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/bappy-barman/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/BappyBarman/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.hackerrank.com/bappy_in" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About Me</h2>
+            <p>Hi, I’m <span>Bappy Barman</span>, an MBA (Marketing) candidate at <strong>Kalyani University</strong>, with a background in <strong>Pharmaceutical Technology</strong> from <strong>Jadavpur University</strong>, Kolkata. I’m passionate about solving business challenges through <strong>data-driven strategies</strong>, <strong>market research</strong>, and <strong>customer-centric thinking</strong>. My strong communication skills and collaborative mindset enable me to work effectively in cross-functional teams. I am particularly interested in <strong>marketing analytics</strong>, <strong>digital strategy</strong>, and <strong>business consulting</strong>, and I’m actively seeking opportunities to contribute to impactful projects while continuously growing both personally and professionally.</p>
+            <div class="fila">
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li><strong>Birthday</strong> 03-05-1999</li>
+                        <li><strong>Mobile</strong> 6290459438</li>
+                        <li><strong>Email</strong> bappybarman02@gmail.com</li>
+                        <li><strong>Location</strong> Kalyani, Kolkata, India</li>
+                        <li><strong>Interests</strong> <span>CYBERSECURITY, DATA SCIENCE</span></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>I LOVE</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes"><i class="fa fa-linux" aria-hidden="true"></i><span>Data</span></div>
+                        <div class="interes"><i class="fa fa-code"></i><span>Programming</span></div>
+                        <div class="interes"><i class="fa-solid fa-gamepad"></i><span>Gaming</span></div>
+                        <div class="interes"><i class="fa-solid fa-headphones"></i><span>Music</span></div>
+                        <div class="interes"><i class="fa-solid fa-plane"></i><span>Travel</span></div>
+                        <div class="interes"><i class="fa-solid fa-book"></i><span>Books</span></div>
+                        <div class="interes"><i class="fa-solid fa-camera"></i><span>Photography</span></div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1x2E0-F5jBOzQbNOf-gs8ru1sXczXqFxZ/view?usp=drive_link" target="_blank">
+                <button>Download CV <i class="fa-solid fa-download"></i><span class="overlay"></span></button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill"><span>Javascript</span><div class="barra-skill"><div class="progreso"><span>75%</span></div></div></div>
+                    <div class="skill"><span>HTML & CSS</span><div class="barra-skill"><div class="progreso"><span>85%</span></div></div></div>
+                    <div class="skill"><span>SQL</span><div class="barra-skill"><div class="progreso"><span>80%</span></div></div></div>
+                    <div class="skill"><span>Python</span><div class="barra-skill"><div class="progreso"><span>90%</span></div></div></div>
+                </div>
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill"><span>Communication</span><div class="barra-skill"><div class="progreso"><span>90%</span></div></div></div>
+                    <div class="skill"><span>Teamwork</span><div class="barra-skill"><div class="progreso"><span>95%</span></div></div></div>
+                    <div class="skill"><span>Creativity</span><div class="barra-skill"><div class="progreso"><span>90%</span></div></div></div>
+                    <div class="skill"><span>Dedication</span><div class="barra-skill"><div class="progreso"><span>95%</span></div></div></div>
+                    <div class="skill"><span>Management</span><div class="barra-skill"><div class="progreso"><span>90%</span></div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq"><h4>Kalyani University</h4><span class="casa">Master of Business Administration</span><span class="fecha">2024 - Present</span><p>Pursuing MBA with a focus on management and business strategy.</p><div class="conectori"><div class="circuloi"></div></div></div>
+                    <div class="item izq"><h4>Jadavpur University</h4><span class="casa">Bachelor of Pharmaceutical Technology</span><span class="fecha">2018 - 2022</span><p>CGPA of 8.56/10</p><div class="conectori"><div class="circuloi"></div></div></div>
+                    <div class="item izq"><h4>Pannalal Institution (H.S.)</h4><span class="casa">Higher Secondary</span><span class="fecha">2016-2018</span><p>Completed under WBCHSE board in 2018.</p><div class="conectori"><div class="circuloi"></div></div></div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experience</h3>
+                    <div class="item der"><h4>Dr. Reddy's Laboratories</h4><span class="casa">Intern</span><p>Project on “Sterile Handling in Industrial Microbiology and Fermentation Upstream processing” in MSAT, Biologics Division.</p><div class="conectord"><div class="circulod"></div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <form class="col" action="https://getform.io/f/44b2ee2f-797c-4121-8e37-46b5c1700b1b" method="POST">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="text" name="Subject" placeholder="Subject" required>
+                    <textarea name="Message" cols="30" rows="10" placeholder="Message" required></textarea>
+                    <button>Send <i class="fa-solid fa-paper-plane"></i><span class="overlay"></span></button>
+                </form>
+                <div class="col">
+                    <a href="https://goo.gl/maps/hzDAck8kifvcEkAo8" target="_blank">
+                        <img src="MAP 1.png" alt="">
+                        <div class="info">
+                            <ul>
+                                <li><i class="fa-solid fa-location-dot"></i> Kalyani, Kolkata, India</li>
+                                <li><i class="fa-solid fa-mobile-screen"></i> 6290459438</li>
+                                <li><i class="fa-solid fa-envelope"></i> bappybarman02@gmail.com</li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/bappy-barman/" target="_blank"><i class="fa-brands fa-linkedin fa-beat"></i></a>
+            <a href="https://github.com/BappyBarman/" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.hackerrank.com/bappy_in" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+        </div>
+        <p>© Bappy Barman 2025</p>
+    </footer>
+
+    <!-- JavaScript with cache buster -->
+    <script src="script.js?v=1.0"></script>
+</body>
+</html>
