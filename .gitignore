@@ -1,7 +1,7 @@
 # Dependencies
 node_modules/
 
-# Build output
+# Build output (we keep built files at root for Hostinger)
 dist/
 
 # Environment

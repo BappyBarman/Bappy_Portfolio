@@ -1,0 +1,5 @@
+# Robots.txt for Bappy Barman Portfolio
+User-agent: *
+Allow: /
+
+Sitemap: https://bappybarman.com/sitemap.xml
