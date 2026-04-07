@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+portfolio-react/node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
